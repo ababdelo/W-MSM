@@ -40,6 +40,10 @@
 	  0 0 0 2px #333,
 	  0 0 0 8px #fff;
   }
+  .menu.active .disable-click {
+  	pointer-events: none;
+  	cursor: not-allowed;
+  }
   .menu li{
 	position:absolute;
 	left:0;
