@@ -14,6 +14,6 @@ toggle.addEventListener("click", () => {
     // Enable icon clicks when the menu is fully activated
     setTimeout(() => {
       socialIcons.forEach(icon => icon.classList.remove("disable-click"));
-    }, 1250); // Adjust this time according to your animation time
+    }, 5000); // Adjust this time according to your animation time
   }
 });
